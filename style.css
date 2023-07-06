@@ -1,0 +1,252 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    background-size: border-box;
+}
+@media screen and (max-width:400px){
+    
+
+    
+
+ 
+body{
+    background-color: #8A2BE2;
+    width: 400px;
+    overflow-x: hidden;
+}
+
+.logo{
+    display: flex;
+    height: 200px;
+   
+   
+}
+.tri {
+    
+    position: absolute;
+    height: 50px;
+    right: 70px;
+    font-family: 'Jacques Francois Shadow' ;
+    text-align: center;
+    justify-content: center;
+   
+}
+
+.tri h1 {
+    font-size: 40px;
+    color: #fff;
+}
+.logo img {
+   display: flex;
+   height: 180px;
+   width: 180px;
+  
+}
+.promoVi{
+    display: flex;
+    height: 40px;
+   
+    border: 2px solid #fff;
+    background-color: #FFC0CB;
+    margin: 10px 10px 20px 10px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 5px;
+
+}
+.promoVi h2 {
+   color: #fff;
+   font-size: large;
+   font: 'joti one';
+}
+.pmfotos {
+    display:inline-block;
+    align-items: center;
+    
+    justify-content: center;
+    height: 470px;
+   
+    justify-content: space-around;
+    padding: 5px;
+}
+.pmfotos img{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+    margin-left: 100px;
+    box-shadow: 5px 5px 5px;
+    border-radius: 8px;
+
+}
+ p{
+   display: flex;
+   margin: 20px 20px 20px 90px;
+    color:#fff;
+
+}
+
+.redonda{
+    width: 120px;
+    height: 120px;
+    background-image: url(img/homem.jpg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 130px;
+    margin-top: 10px;
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px;
+}
+
+.redonda1{
+    width: 120px;
+    height: 120px;
+    background-image: url(img/mu1.webp);
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 130px;
+    margin-top: 10px;
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px;
+}
+
+.chat{
+    display:inline-block;
+    flex-wrap: wrap;
+    width: 90%;
+}
+.chat1{
+    display:inline-block;
+    flex-wrap: wrap;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-size: cover;
+    box-shadow: 5px 5px 5px;
+    margin: 10px;
+    background-image: url(img/mulher.jpg);
+}
+.chat2{
+    display: inline-block;
+    flex-wrap: wrap;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-size: cover;
+    box-shadow: 5px 5px 5px;
+    margin: 10px;
+    background-image: url(img/hom1.webp);
+}
+.chat3{
+    display: inline-block;
+    flex-wrap: wrap;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-size: cover;
+    box-shadow: 5px 5px 5px;
+    margin: 10px;
+    background-image: url(img/mul2.jpg);
+}
+.chat4{
+    display: inline-block;
+    flex-wrap: wrap;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-size: cover;
+    box-shadow: 5px 5px 5px;
+    margin: 10px;
+    background-image: url(img/hom2.jpg);
+}
+
+.alug{
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+    margin-left: 120px;
+    box-shadow: 5px 5px 5px;
+    border-radius: 8px;
+   
+}
+
+.alug img {
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+    box-shadow: 5px 5px 5px;
+    border-radius: 8px;
+  
+}
+
+
+.alu {
+     margin: 10px 10px 10px 160px;
+    color:#fff;
+}
+
+h4 {
+    margin: 10px 20px 10px 160px;
+    color: #FF8C00 ;
+}
+.alcarro {
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+    margin-left: 120px;
+    box-shadow: 5px 5px 5px;
+    border-radius: 8px;
+   
+}
+.alcarro img {align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+    box-shadow: 5px 5px 5px;
+    border-radius: 8px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+   
+    height: 40px;
+    border: 2px solid #fff;
+    background-color: #FFC0CB;
+    margin: 10px 10px 10px 10px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 5px 5px 5px;
+ 
+}
+
+.menu a {
+    border: 0px;
+    text-decoration: none;
+    color: #000;
+}
+.button img{
+    height: 30px;
+    width: 30px;
+    border: 5px;
+}
+
+.button2 img{
+    height: 30px;
+    width: 32px;
+    border: 5px;
+}
+
+
+
+} 
